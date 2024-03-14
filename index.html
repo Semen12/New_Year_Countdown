@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <script defer src="JS/script.js"></script>
+</head>
+
+<body>
+    <div class="block_content">
+        <h1 class="block__title">Узнайте сколько осталось до Нового Года</h1>
+        <form class="block_input" name="myForm">
+            <label for="year-select">Год</label>
+            <select name="years" id="year-select" class="block__select">
+                <option value="" selected="selected">-- Выберите год --</option>
+            </select>
+
+        </form>
+        <div class="block_output">
+            Текущая  дата и время: <span class="block_output-time"></span>
+        </div>
+        <div class="block_diffrent">
+            До Нового Года осталось <span class="block_diffrent-day"></span>, <span class="block_diffrent-hour"></span>, <span class="block_diffrent-minutes"></span>, <span class="block_diffrent-second"></span>
+        </div>
+
+    </div>
+</body>
+
+</html>
